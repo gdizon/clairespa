@@ -1,47 +1,31 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="utf-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Claire's Spa</title>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-	<link rel = "stylesheet" href = "clairespa.css">
-	<script src = "clairespa.js"></script>
+    <title>Claire's Spa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="clairespa.css">
 </head>
+
 <body>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-  </body>
-	<h1>Claire's Spa</h1>
-	<h4><a href="clairespa.html">Home   </a><a href="contact.html">Contact</a></h4>
-	<h3>Please select a time for your appointment!</h3>
-	<div class="container mt-8">
-		<div class = "row">
-			<form action="usercontact.html">
-			<div class = "col-sm-12 text-center">
-				<input type="radio" id="nine" name="time">
-				<label for="nine">9 AM</label><br>
-				<input type="radio" id="ten" name="time">
-				<label for="ten">10 AM</label><br>
-				<input type="radio" id="eleven" name="time">
-				<label for="eleven">11 AM</label><br>
-				<input type="radio" id="twelve" name="time">
-				<label for="twelve">12 PM</label><br>
-				<input type="radio" id="one" name="time">
-				<label for="one">1 PM</label><br>
-				<input type="radio" id="two" name="time">
-				<label for="two">2 PM</label><br>
-				<input type="radio" id="three" name="time">
-				<label for="three">3 PM</label><br>
-				<input type="radio" id="four" name="time">
-				<label for="four">4 PM</label><br>
-				<input type="radio" id="five" name="time">
-				<label for="five">5 PM</label>
-			</div>
-			<button class="timecenter" type="submit" onclick="">Continue</button>
-			</form>
-		</div>
-	</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <h1>Claire's Spa</h1>
+    <h4><a href="index.html">Home </a><a href="contact.html">Contact</a></h4>
+    <h3>Please select a time for your appointment!</h3>
+    <div class="container mt-8">
+        <div class="row">
+            <form action="usercontact.html">
+                <br>
+                <input type="time" required class="calendarcenter" value="09:00" min="09:00" max="18:00" step="3600">
+                <br><br>
+                <button class="timecenter" type="submit">Continue</button>
+            </form>
+        </div>
+        <div class="col-sm-12 text-center center">
+        </div>
+    </div>
 </body>
+
 </html>
-
-
