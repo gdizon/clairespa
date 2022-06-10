@@ -1,0 +1,56 @@
+body {
+	background-color:#e5cedc;
+}
+h1 {
+	background-color:#bca3ac;
+	color:white;
+	text-align:center;
+}
+h3 {
+	color:#5b4b49;
+	text-align: center;
+}
+h4 {
+	background-color:#7daf9c;
+	color:white;
+	text-align:center;
+}
+h5 {
+	text-align:center;
+}
+.center {               /*code taken from https://www.w3schools.com/howto/howto_css_center_button.asp*/
+	margin: 0;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%);
+}
+.calendarcenter{
+	margin: 0;
+  	position: absolute;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%);
+}
+a:link, a:visited, a:hover {
+	color:#5b4b49;
+	text-decoration: none;
+}
+p {
+	font-size:25px;
+}
+.time{
+	font=size:12px;
+}
+.timecenter{
+	margin: 0;
+  	position: absolute;
+  	left: 50%;
+  	transform: translate(-50%, 50%);
+  	transform: translate(-50%, 50%);
+}
+.datetransform{
+	transform: translate(-50%, 50%);
+  	transform: translate(-50%, 50%);
+}
