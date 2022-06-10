@@ -18,13 +18,13 @@
         <div class="row">
             <div class="col-sm-12 text-center center">
                 <form action="time.html">
-                    <input name="datepicker" type="date" required class="calendarcenter">><br><br>
+                    <input id="datepicker" type="date" required class="calendarcenter">><br><br>
                     <button class="timecenter" type="submit">Continue</button>
                 </form>
             </div>
         </div>
     </div>
-    <script> var today = new Date().toISOString().split('T')[0]; document.getElementsByName("datepicker")[0].setAttribute('min', today); </script>
+    <script> var today = new Date().toISOString().split('T')[0]; document.getElementById("datepicker").setAttribute('min', today); </script>
 </body>
 
 </html>
